@@ -1,0 +1,107 @@
+a {
+  transition: all .2s ease-in-out;
+  color: #000;
+}
+
+nav {
+  background: #fff;
+  opacity: 0;
+  padding: 222px 0 120px;
+  position: fixed;
+  bottom: 0;
+  left: -99999px;
+  right: 99999px;
+  top: 0;
+  transform: translateY( 1rem );
+  transition: opacity .3s ease-in-out, transform .3s ease-in-out, left 0s .3s, right 0s .3s;
+  z-index: 9999;
+}
+
+.active {
+  left: 0;
+  right: 0;
+  opacity: 1;
+  transform: translateY( 0 );
+  transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+}
+
+/* Make navigation scrollable */
+
+nav .menus {
+  overflow: auto;
+  max-height: 100%;
+}
+
+nav .menus > ul {
+  float: left;
+  width: calc( 50% - 10px );
+}
+
+nav ul ul {
+  margin: 20px 0 0 40px;
+}
+
+nav ul + ul {
+  margin-left: 20px;
+}
+
+nav li {
+  display: block;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  width: 100%;
+}
+
+nav li + li {
+  margin-top: 20px;
+}
+
+nav ul a {
+  border-bottom: .1rem solid transparent;
+}
+
+nav ul + ul a {
+  color: rgba( 0, 0, 0, .35 );
+}
+
+
+/* Add grey underscore to navigation link  */
+
+nav ul a:hover {
+  text-decoration: none;
+}
+
+nav ul:first-child a:hover,
+nav ul:first-child .current-menu-item > a { 
+  border-bottom-color: #000; 
+}
+
+nav ul:last-child a:hover,
+nav ul:last-child .current-menu-item > a { 
+  border-bottom-color: rgba( 0, 0, 0, .35 );
+}
+
+/* Place  and color navigation footer */
+
+nav footer {
+  background: #fff;
+  padding: 50px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+nav footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav footer p:first-child { 
+  float: left; 
+}
+
+nav footer p:last-child { 
+  color: rgba( 0, 0, 0, .35 );
+  float: right; 
+}

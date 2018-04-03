@@ -1,33 +1,33 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styles from '../../styles/header.module.css'
+import { connect } from 'react-redux';
 
-const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
-    </div>
+import Navigation from '../Navigation';
+
+const Header = ({ toggleNav, showNav, links }) => (
+  <div>
+    <header className={styles.group}>
+      <div className={(showNav ? styles.navToggleActive: styles.navToggle )} onClick={toggleNav}>
+        <div className={styles.bar}></div>
+        <div className={styles.bar}></div>
+        <div className={styles.bar}></div>
+      </div>
+    </header>
+    <Navigation
+      links={links}
+    />
   </div>
 )
 
-export default Header
+const mapDispatchToProps = dispatch => {
+  return { toggleNav: () => dispatch({ type: 'TOGGLE_NAV' }) }
+}
+
+const mapStateToProps = ({ showNav }) => {
+  return { showNav }
+}
+
+const ConnectedHeader = connect(mapStateToProps, mapDispatchToProps)(Header);
+
+export default ConnectedHeader;

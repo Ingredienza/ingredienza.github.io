@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import { connect } from 'react-redux';
 
 import Header from '../components/Header'
 
-const TemplateWrapper = ({ children }) => (
-  <div>
+const TemplateWrapper = ({ children, lockScreen }) => (
+  <div style={(lockScreen ? { position: 'fixed', height: '100%', width: '100%' } : {})}>
     <Helmet
       title="Gatsby Default Starter"
       meta={[
@@ -13,7 +14,9 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header />
+    <Header
+      links={[{url: 'test', text: 'test'}]}
+    />
     <div
       style={{
         margin: '0 auto',
@@ -29,6 +32,13 @@ const TemplateWrapper = ({ children }) => (
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
+  lockScreen: PropTypes.bool,
 }
 
-export default TemplateWrapper
+const mapStateToProps = ({ showNav }) => {
+  return { lockScreen: showNav }
+}
+
+const ConnectedTemplateWrapper = connect(mapStateToProps, {})(TemplateWrapper)
+
+export default ConnectedTemplateWrapper 
