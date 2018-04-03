@@ -6,7 +6,7 @@ import Footer from '../Footer';
 
 const NavigationLink = props =>
   <li style={{ fontSize: '40px', fontWeight: '300'}}>
-    <Link to={props.to}>
+    <Link to={props.to} onClick={props.toggleNav}>
       {props.children}
     </Link>
   </li>  
@@ -17,7 +17,9 @@ const Navigation = props =>
       <ul>
       {
         props.links.map(link => (
-          <NavigationLink to={link.to}>{link.text}</NavigationLink>
+          <NavigationLink to={link.to} toggleNav={props.toggleNav}>
+            {link.text}
+          </NavigationLink>
         ))
       }
       </ul>
@@ -29,5 +31,9 @@ const mapStateToProps = ({ showNav }) => {
   return { showNav }
 }
 
-const ConnectedNavigation = connect(mapStateToProps, {})(Navigation)
+const mapDispatchToProps = dispatch => {
+  return { toggleNav: () => dispatch({ type: 'TOGGLE_NAV' }) }
+}
+
+const ConnectedNavigation = connect(mapStateToProps, mapDispatchToProps)(Navigation)
 export default ConnectedNavigation;

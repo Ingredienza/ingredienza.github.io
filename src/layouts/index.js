@@ -15,7 +15,10 @@ const TemplateWrapper = ({ children, lockScreen }) => (
       ]}
     />
     <Header
-      links={[{url: 'test', text: 'test'}]}
+      links={[
+        {to: '/', text: 'Home'},
+        {to: 'products/', text: 'Produkte'}
+      ]}
     />
     <div
       style={{
