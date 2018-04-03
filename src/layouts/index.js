@@ -7,13 +7,6 @@ import Header from '../components/Header'
 
 const TemplateWrapper = ({ children, lockScreen }) => (
   <div style={(lockScreen ? { position: 'fixed', height: '100%', width: '100%' } : {})}>
-    <Helmet
-      title="Gatsby Default Starter"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
     <Header
       links={[
         {to: '/', text: 'Home'},
