@@ -19,7 +19,7 @@ const Sidebar = props =>
       paddingTop: 0,
     }}
   >
-    <p> Unsere Productkategorien: </p>
+    <p> Unsere Produktkategorien: </p>
     <ul>
     {
       props.links.map(link => (
