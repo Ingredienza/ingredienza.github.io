@@ -13,7 +13,7 @@ const NavigationLink = props =>
 
 const Navigation = props =>
   <nav className={(props.showNav ? styles.active : "")}>
-    <div style={{ margin: '0 auto', width: '90%' }}>
+    <div style={{ margin: '0 auto', width: '90%', overflow: 'auto', maxHeight: '100%' }}>
       <ul>
       {
         props.links.map(link => (
