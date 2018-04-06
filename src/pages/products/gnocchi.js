@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import styles from '../../styles/gnocchi.module.css';
 
 const GnocchiPage = () => (
-  <div className={styles.background}>
+  <div>
     <Helmet
       title="Gnocchi von Ingredienza | Ingredienza"
       meta={[

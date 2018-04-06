@@ -1,0 +1,50 @@
+aside a {
+  transition: all .2s ease-in-out;
+  color: #000;
+  text-decoration: none;
+}
+
+
+aside ul ul {
+  margin: 10px 0 0 40px;
+}
+
+aside ul + ul {
+  margin-left: 10px;
+}
+
+aside li {
+  display: block;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  width: 100%;
+}
+
+aside li + li {
+  margin-top: 20px;
+}
+
+aside ul a {
+  border-bottom: .1rem solid transparent;
+}
+
+aside ul + ul a {
+  color: rgba( 0, 0, 0, .35 );
+}
+
+
+/* Add grey underscore to asideigation link  */
+
+aside ul a:hover {
+  text-decoration: none;
+}
+
+aside ul:first-child a:hover,
+aside ul:first-child .current-menu-item > a { 
+  border-bottom-color: #000; 
+}
+
+aside ul:last-child a:hover,
+aside ul:last-child .current-menu-item > a { 
+  border-bottom-color: rgba( 0, 0, 0, .35 );
+}
