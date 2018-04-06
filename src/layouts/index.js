@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { connect } from 'react-redux';
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const TemplateWrapper = ({ children, lockScreen }) => (
   <div style={(lockScreen ? { position: 'fixed', height: '100%', width: '100%' } : {})}>
@@ -26,6 +27,7 @@ const TemplateWrapper = ({ children, lockScreen }) => (
     >
       {children()}
     </div>
+    <Footer />
   </div>
 )
 
