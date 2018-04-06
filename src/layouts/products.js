@@ -14,6 +14,7 @@ const TemplateWrapper = ({ children, lockScreen }) => (
         {to: '/', text: 'Home'},
         {to: '/places', text: 'Standorte'},
         {to: '/products/', text: 'Produkte'},
+        {to: '/pricelist/', text: 'Preisliste'},
         {to: '/terms', text: 'Konditionen'},
         {to: '/contact', text: 'Kontakt'},
       ]}

@@ -41,7 +41,7 @@ const IndexPage = () => (
       Übrigens - auch Privatpersonen sind bei uns herzlich willkommen. Kaufen Sie
       Ihre frische Pasta direkt in unserem Fabrikladen oder auf dem Wochenmarkt.  
     </p>
-    <Link to="/places/">Standorte</Link>
+    <Link style={{color: '#000'}} to="/places/">Standorte</Link>
   </div>
 )
 

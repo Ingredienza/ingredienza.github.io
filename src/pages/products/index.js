@@ -37,7 +37,6 @@ const ProductPage = () => (
       Ricottafüllung ist somit ein Unikat. Unsere „Fatto a mano“-Linie ist premium –
       einfach ideal für Gäste, die das Besondere lieben.
       </p>
-      <Link to="gnocchi">Gnocci</Link> 
   </div>
 )
 
