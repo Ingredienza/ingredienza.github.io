@@ -78,7 +78,7 @@ const NoodlePage = () => (
           <td>60003</td>
           <td>Safran-Nudeln</td>
           <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 15.-</td>
+          <td>Fr. 15.--</td>
         </tr>
         <tr>
           <td>60023</td>
@@ -124,7 +124,7 @@ const NoodlePage = () => (
           <td>60015</td>
           <td>Basilikum-Nudeln</td>
           <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr 11.-</td>
+          <td>Fr 11.--</td>
         </tr>
         <tr>
           <td>60020</td>
@@ -136,7 +136,7 @@ const NoodlePage = () => (
           <td>60027</td>
           <td>Curry-Nudeln</td>
           <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 11.-</td>
+          <td>Fr. 11.--</td>
         </tr>
         <tr>
           <td>60014</td>
@@ -154,7 +154,7 @@ const NoodlePage = () => (
           <td>60026</td>
           <td>Kastanien-Nudeln</td>
           <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 15.-</td>
+          <td>Fr. 15.--</td>
         </tr>
         <tr>
           <td>60005</td>
@@ -166,7 +166,7 @@ const NoodlePage = () => (
           <td>60033</td>
           <td>K&uuml;rbis-Curry-Nudeln</td>
           <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 11.-</td>
+          <td>Fr. 11.--</td>
         </tr>
         <tr>
           <td>60022</td>
@@ -190,7 +190,7 @@ const NoodlePage = () => (
           <td>60017</td>
           <td>Pfefferminz-Nudeln</td>
           <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 13.-</td>
+          <td>Fr. 13.--</td>
         </tr>
         <tr>
           <td>60011</td>
@@ -208,13 +208,13 @@ const NoodlePage = () => (
           <td>60046</td>
           <td>Schnittlauch-Nudeln</td>
           <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 13.-</td>
+          <td>Fr. 13.--</td>
         </tr>
         <tr>
           <td>60006</td>
           <td>Sesam-Nudeln</td>
           <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 13.-</td>
+          <td>Fr. 13.--</td>
         </tr>
         <tr>
           <td>60010</td>
@@ -232,7 +232,7 @@ const NoodlePage = () => (
           <td>60008</td>
           <td>Zitronen-Nudeln</td>
           <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 12.-</td>
+          <td>Fr. 12.--</td>
         </tr>
     </table>
   </div>

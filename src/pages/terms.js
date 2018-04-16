@@ -31,11 +31,11 @@ const TermsPage = () => (
             Bern und umliegende Regionen beliefern wir per K&uuml;hlwagen (Keine Mindestbestellmenge).<br />
             F&uuml;r alle Regionen in der Schweiz verf&uuml;gen wir &uuml;ber
             ein gut funktionierendes Verteilsystem durch Tiefk&uuml;hltransport
-            Unternehmen.<br /> Beim Einkauf ab Fr. 200.— ist die Lieferung franko Domizil.<br />
-            Unter Fr. 200.— gelten die effektiven Frachtkosten. <br /> F&uuml;r Lieferungen
-            am Samstag werden Frachtkosten von Fr. 60.— verrechnet. <br /> Terminlieferungen
-            im Zeitfenster von &lt;/= 2 Std sowie vor 10.00h kosten plus Fr. 50.–. <br />
-            Verstehen sich netto exklusive 2,5 % MwSt. &Auml;nderungen vorbehalten.
+            Unternehmen.<br /> Beim Einkauf ab Fr. 200.-- ist die Lieferung franko Domizil.<br />
+            Unter Fr. 200.-- gelten die effektiven Frachtkosten. <br /> F&uuml;r Lieferungen
+            am Samstag werden Frachtkosten von Fr. 60.-- verrechnet. <br /> Terminlieferungen
+            im Zeitfenster von &lt;/= 2 Std sowie vor 10.00h kosten plus Fr. 50.--. <br />
+            Unsere Preise verstehen sich netto exklusive 2,5 % MwSt. &Auml;nderungen vorbehalten.
 
           </td>
       </tr>
@@ -43,10 +43,10 @@ const TermsPage = () => (
         <td>Rabatte <br />
         pro Bestellung:</td>
         <td>
-          2% &nbsp;&nbsp;&nbsp;&nbsp;ab Fr. &nbsp;&nbsp;&nbsp;700.—<br />
-        5% &nbsp;&nbsp;&nbsp;&nbsp;ab Fr. 1000.—<br />
-        7% &nbsp;&nbsp;&nbsp;&nbsp;ab Fr. 1500.—<br />
-        10% &nbsp;ab Fr. 2000.—<br />
+          2% &nbsp;&nbsp;&nbsp;&nbsp;ab Fr. &nbsp;&nbsp;700.--<br />
+        5% &nbsp;&nbsp;&nbsp;&nbsp;ab Fr. 1000.--<br />
+        7% &nbsp;&nbsp;&nbsp;&nbsp;ab Fr. 1500.--<br />
+        10% &nbsp;&nbsp;ab Fr. 2000.--<br />
         </td>
       </tr>
       <tr>

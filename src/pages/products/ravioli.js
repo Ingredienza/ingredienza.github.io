@@ -89,7 +89,7 @@ const RavioliPage = () => (
         <td>10003</td>
         <td>Basilikum-Raviolini im Safranteig<br /> Ideal als Suppeneinlage 2.0 x 2.5cm.</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 13.50.--</td>
+        <td>Fr. 13.50</td>
       </tr>
       <tr>
         <td>10006</td>

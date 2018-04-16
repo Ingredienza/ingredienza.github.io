@@ -25,7 +25,7 @@ const TemplateWrapper = ({ children, lockScreen }) => (
         {to: '/products/ravioli/', text: 'Ravioli'},
         {to: '/products/noodle/', text: 'Nudeln'},
         {to: '/products/season/', text: 'Saisonprodukte & Spezialitäten'},
-        {to: '/products/speacial/', text: 'Teigwaren mit Spezialfüllung'},
+        {to: '/products/special/', text: 'Teigwaren mit Spezialfüllung'},
         {to: '/products/vegan/', text: 'Ingredienza goes vegan'},
         {to: '/products/fatto/', text: 'Fatto a mano'},
       ]}

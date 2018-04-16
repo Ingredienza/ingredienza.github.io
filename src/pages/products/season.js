@@ -86,7 +86,7 @@ const SeasonPage = () => (
 			</tr>
 			<tr>
 				<td>20004</td>
-				<td>Ricotta-Minze-Quadrolini<br /> gr&uuml;n-weiss gestreift<br />(erh&auml;ltlich sobald es frische Minze gibt)</td>
+				<td>Ricotta-Minze-Quadrolini gr&uuml;n-weiss gestreift<br />(erh&auml;ltlich sobald es frische Minze gibt)</td>
 				<td>&cent; &agrave; 2kg TK</td>
 				<td>Fr. 23.50</td>
 			</tr>
@@ -98,7 +98,7 @@ const SeasonPage = () => (
 			</tr>
 			<tr>
 				<td>ITA002</td>
-				<td>Zucchetti mit ger&ouml;steten Pinien und Minze im Eierteig <br />Quadrolini im Eierteig </td>
+				<td>Zucchetti mit ger&ouml;steten Pinien und Minze Quadrolini im Eierteig</td>
 				<td>&cent; &agrave; 2kg TK</td>
 				<td>Fr. 22.50</td>
 			</tr>
@@ -161,7 +161,7 @@ const SeasonPage = () => (
 			<tr>
 				<td>40046</td>
         <td>
-          Wildschwein mit Holunder und schwarzer Schokolade <br />
+          Wildschwein mit Holunder und schwarzer Schokolade 
           Rechtecke im Eierteig
         </td>
 				<td>&cent; &agrave; 2kg TK</td>

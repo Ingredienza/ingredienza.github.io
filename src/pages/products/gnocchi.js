@@ -94,8 +94,8 @@ const GnocchiPage = ({ data }) => (
       </tr>
       <tr>
         <td></td>
-        <td>... mit diversen Sommerkr&auml;utern (Zitronenthymian, Basilikum,
-            Kerbel, Schnittlauch, Oregano, Lavendel, Mayoran)
+        <td>... mit diversen Sommerkr&auml;utern <br />
+            (Zitronenthymian, Basilikum, Kerbel, Schnittlauch, Oregano, Lavendel, Mayoran)
         </td>
         <td>&cent; &agrave; 3kg TK</td>
         <td>Fr. 11.--</td>      
@@ -119,7 +119,7 @@ const GnocchiPage = ({ data }) => (
         <td>Fr. 11.--</td>      
       </tr>
   </table> 
-  <p>Auch ausserhalb der Saison erh&auml;ltlich. Mindestbestellmenge 7&cent; &agrave; 3kg</p>
+  <p><strong>Unsere Saison-Gnocchi sind auch ausserhalb der Saison erh&auml;ltlich. Mindestbestellmenge 7&cent; &agrave; 3kg</strong></p>
   <h1>Spezial-Gnocchi</h1>
   <table border="0" bordercolor="#000000" cellpadding="2" cellspacing="2" width="660">
       <colgroup>
@@ -201,7 +201,7 @@ const GnocchiPage = ({ data }) => (
         <td></td>
       </tr>
     </table> 
-    <p> Unsere Spezialgnocchi sind nur auf Bestellung erh&auml;ltlich.  Mindestbestellmenge 7&cent; &agrave; 3kg </p>
+    <p><strong> Unsere Spezialgnocchi sind nur auf Bestellung erh&auml;ltlich.  Mindestbestellmenge 7&cent; &agrave; 3kg </strong></p>
 
   </div>
 )
