@@ -19,7 +19,6 @@ const Sidebar = props =>
       paddingTop: 0,
     }}
   >
-    <p> Unsere Produktkategorien: </p>
     <ul>
     {
       props.links.map(link => (

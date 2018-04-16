@@ -1,9 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet';
+import Img from 'gatsby-image';
 
-const IndexPage = () => (
+const IndexPage = ({ data }) => (
   <div>
+    <Img
+      style={{ position: 'fixed', zIndex: -1, width: '100%', height: '100%'  }}
+      sizes={data.backgroundImage.sizes}
+    />
     <Helmet
       title="Berner Teigwaren-Manufaktur | Ingredienza"
       meta={[
@@ -44,5 +49,15 @@ const IndexPage = () => (
     <Link style={{color: '#000'}} to="/places/">Standorte</Link>
   </div>
 )
+export const query = graphql`
+  query IndexImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/nudeln/" }) {
+      sizes(maxWidth: 1000 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
+
 
 export default IndexPage

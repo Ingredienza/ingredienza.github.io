@@ -1,9 +1,13 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import styles from '../../styles/gnocchi.module.css';
+import Img from 'gatsby-image';
 
-const GnocchiPage = () => (
+const GnocchiPage = ({ data }) => (
   <div>
+    <Img
+      style={{ position: 'fixed', zIndex: -1, width: '100%', height: '100%'  }}
+      sizes={data.backgroundImage.sizes}
+    />
     <Helmet
       title="Gnocchi von Ingredienza | Ingredienza"
       meta={[
@@ -35,25 +39,25 @@ const GnocchiPage = () => (
         <td>60035</td>
         <td>Kartoffel-Gnocchi</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 10.--</td>			
+        <td>Fr. 10.--</td>      
       </tr>
       <tr>
         <td>60036</td>
         <td>... mit Spinat</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td>60050</td>
         <td>... mit Paprika</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td>60035SAF</td>
         <td>... mit Safran</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 14.50</td>			
+        <td>Fr. 14.50</td>      
       </tr>
   </table>
   <h1>Saison-Gnocchi</h1>
@@ -74,19 +78,19 @@ const GnocchiPage = () => (
         <td>Fr&uuml;hling</td>
         <td>... mit frischem B&auml;rlauch</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td>Sommer</td>
         <td>... mit frischem Basilikum</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit frischem Rosmarin</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 12.50</td>			
+        <td>Fr. 12.50</td>      
       </tr>
       <tr>
         <td></td>
@@ -94,25 +98,25 @@ const GnocchiPage = () => (
             Kerbel, Schnittlauch, Oregano, Lavendel, Mayoran)
         </td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit getrockneten Tomaten und Basilikum</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td>Herbst</td>
         <td>... mit K&uuml;rbis und Kurkuma</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit Steinpilzen</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
   </table> 
   <p>Auch ausserhalb der Saison erh&auml;ltlich. Mindestbestellmenge 7&cent; &agrave; 3kg</p>
@@ -134,61 +138,61 @@ const GnocchiPage = () => (
         <td></td>
         <td>... mit Blattspinat und Sonnenblumenkernen</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit frischen Brennesseln</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 12.50</td>			
+        <td>Fr. 12.50</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit Curry und Kokosmilch</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit Kastanienmehl</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 13.--</td>			
+        <td>Fr. 13.--</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit roher Rande</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 12.50</td>			
+        <td>Fr. 12.50</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit Quark, frischem Ingwer und schwarzem Pfeffer</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit schwarzen Oliven</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit Sepiatinte</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 15.--</td>			
+        <td>Fr. 15.--</td>      
       </tr>
       <tr>
         <td></td>
         <td>... S&uuml;sskartoffel-Gnocchi Mindestbestellung 48kg</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 13.--</td>			
+        <td>Fr. 13.--</td>      
       </tr>
       <tr>
         <td></td>
         <td>... mit Zitronenschale und Zitronen-Melisse</td>
         <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 11.--</td>			
+        <td>Fr. 11.--</td>      
       </tr>
       <tr>
         <td></td>
@@ -202,4 +206,13 @@ const GnocchiPage = () => (
   </div>
 )
 
+export const query = graphql`
+  query GnocchiImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/gnocchi/" }) {
+      sizes(maxWidth: 1000 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
 export default GnocchiPage;
