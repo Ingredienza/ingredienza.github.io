@@ -2,13 +2,22 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { connect } from 'react-redux';
+import classNames from 'classNames';
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Navigation from '../components/Navigation';
+import styles from '../styles/layout.module.css';
 
 const TemplateWrapper = ({ children, lockScreen }) => (
-  <div style={(lockScreen ? { position: 'fixed', height: '100%', width: '100%' } : {})}>
-    <Header
+  <div
+    className={classNames({
+      [`${styles.container}`]: true,
+      [`${styles.locked}`]: lockScreen,
+    })}
+  >
+    <Header />
+    <Navigation
       links={[
         {to: '/', text: 'Home'},
         {to: '/places', text: 'Standorte'},
@@ -18,16 +27,9 @@ const TemplateWrapper = ({ children, lockScreen }) => (
         {to: '/contact', text: 'Kontakt'},
       ]}
     />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <main className={styles.content}>
       {children()}
-    </div>
+    </main>
     <Footer />
   </div>
 )

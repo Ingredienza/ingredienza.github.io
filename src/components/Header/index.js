@@ -2,22 +2,38 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styles from '../../styles/header.module.css'
 import { connect } from 'react-redux';
+import classNames from 'classNames';
 
 import Navigation from '../Navigation';
 
 const Header = ({ toggleNav, showNav, links }) => (
-  <div>
-    <header className={styles.group}>
-      <div className={(showNav ? styles.navToggleActive: styles.navToggle )} onClick={toggleNav}>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
-        <div className={styles.bar}></div>
+  <header>
+      <div
+        className={classNames({
+          [`${styles.toggle}`]: true,
+        })}
+        onClick={toggleNav}
+      >
+        <div
+          className={classNames({
+            [`${styles.bar}`]: true,
+            [`${styles.active}`]: showNav,
+          })}
+        />
+        <div
+          className={classNames({
+            [`${styles.bar}`]: true,
+            [`${styles.active}`]: showNav,
+          })}
+        />
+        <div
+          className={classNames({
+            [`${styles.bar}`]: true,
+            [`${styles.active}`]: showNav,
+          })}
+        />
       </div>
-    </header>
-    <Navigation
-      links={links}
-    />
-  </div>
+  </header>
 )
 
 const mapDispatchToProps = dispatch => {
