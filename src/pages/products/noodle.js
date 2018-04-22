@@ -1,8 +1,20 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Img from 'gatsby-image';
 
-const NoodlePage = () => (
-  <div>
+const NoodlePage = ({ data }) => (
+  <div style={{ gridArea: 'content' }}>
+    <Img
+      style={{ 
+        zIndex: -1,
+        position: "fixed",
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        height: "100%"
+      }}
+      sizes={data.backgroundImage.sizes}
+    />
     <Helmet
       title="Nudeln von Ingredienza | Ingredienza"
       meta={[
@@ -237,5 +249,15 @@ const NoodlePage = () => (
     </table>
   </div>
 )
+
+export const query = graphql`
+  query NoodlesImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/nudeln1/" }) {
+      sizes(maxWidth: 1000 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
 
 export default NoodlePage;

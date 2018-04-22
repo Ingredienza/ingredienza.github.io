@@ -1,9 +1,21 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+import Img from 'gatsby-image';
 
-const ProductPage = () => (
-  <div>
+const ProductPage = ({ data }) => (
+  <div style={{ gridArea: 'content' }}>
+    <Img
+      style={{
+        zIndex: -1,
+        position: "fixed",
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        height: "100%"
+      }}
+      sizes={data.backgroundImage.sizes}
+    />
     <Helmet
       title="Produkte – Frische Teigwaren aus Bern  | Ingredienza"
       meta={[
@@ -39,5 +51,15 @@ const ProductPage = () => (
       </p>
   </div>
 )
+
+export const query = graphql`
+  query ProductsImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/spez5/" }) {
+      sizes(maxWidth: 1000 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
 
 export default ProductPage;

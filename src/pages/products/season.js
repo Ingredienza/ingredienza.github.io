@@ -1,8 +1,20 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Img from 'gatsby-image';
 
-const SeasonPage = () => (
-  <div>
+const SeasonPage = ({ data }) => (
+  <div style={{ gridArea: 'content' }}>
+    <Img
+      style={{ 
+        zIndex: -1,
+        position: "fixed",
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        height: "100%"
+      }}
+      sizes={data.backgroundImage.sizes}
+    />
     <Helmet
       title="Pasta aus Saisongemüse | Ingredienza"
       meta={[
@@ -251,4 +263,13 @@ const SeasonPage = () => (
   </div>
 )
 
+export const query = graphql`
+  query SeasonImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/saison5/" }) {
+      sizes(maxWidth: 1000 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
 export default SeasonPage;

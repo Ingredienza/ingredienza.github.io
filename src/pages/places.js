@@ -1,8 +1,20 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Img from 'gatsby-image';
 
-const PlacesPage = () => (
+const PlacesPage = ({ data }) => (
 	<div>
+    <Img
+      style={{
+        zIndex: -1,
+        position: "fixed",
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        height: "100%"
+      }}
+      sizes={data.backgroundImage.sizes}
+    />
     <Helmet
       title="Bezugsquellen Privatpersonen | Ingredienza"
       meta={[
@@ -43,6 +55,17 @@ const PlacesPage = () => (
 		</p>
 	</div>
 )
+
+export const query = graphql`
+  query PlacesImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/fatto5/" }) {
+      sizes(maxWidth: 1000 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
+
 
 export default PlacesPage;
 

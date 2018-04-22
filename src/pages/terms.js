@@ -1,9 +1,21 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Img from 'gatsby-image';
 
 
-const TermsPage = () => (
+const TermsPage = ({ data }) => (
   <div>
+    <Img
+      style={{
+        zIndex: -1,
+        position: "fixed",
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        height: "100%"
+      }}
+      sizes={data.backgroundImage.sizes}
+    />
     <Helmet
       title="Konditionen Gastronomie | Ingredienza"
       meta={[
@@ -65,4 +77,13 @@ const TermsPage = () => (
   </div>
 )
 
+export const query = graphql`
+  query TermsImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/saison2/" }) {
+      sizes(maxWidth: 1000 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
 export default TermsPage;

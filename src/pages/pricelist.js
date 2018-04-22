@@ -1,12 +1,25 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet';
+import Img from 'gatsby-image';
+
 import pricelist_ge from '../pdfs/preisliste_de.pdf';
 import pricelist_fr from '../pdfs/preisliste_fr.pdf';
 
 
-const PriceListPage = () => (
+const PriceListPage = ({ data }) => (
   <div>
+    <Img
+      style={{
+        zIndex: -1,
+        position: "fixed",
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        height: "100%"
+      }}
+      sizes={data.backgroundImage.sizes}
+    />
     <Helmet
       title="Pasta-Preisliste | Ingredienza"
       meta={[
@@ -21,5 +34,15 @@ const PriceListPage = () => (
     <a style={{color: '#000'}} href={pricelist_fr}>Download offre tarifaire Fr</a>
   </div>
 )
+
+export const query = graphql`
+  query PriceListImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/nudeln5/" }) {
+      sizes(maxWidth: 1000 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
 
 export default PriceListPage 

@@ -1,8 +1,20 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Img from 'gatsby-image';
 
-const SpecialPage = () => (
-  <div>
+const SpecialPage = ({ data }) => (
+  <div style={{ gridArea: 'content' }}>
+    <Img
+      style={{ 
+        zIndex: -1,
+        position: "fixed",
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        height: "100%"
+      }}
+      sizes={data.backgroundImage.sizes}
+    />
     <Helmet
       title="Pasta-Spezialitäten von Ingredienza | Ingredienza"
       meta={[
@@ -172,4 +184,13 @@ const SpecialPage = () => (
   </div>
 )
 
+export const query = graphql`
+  query SpecialImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/spez2/" }) {
+      sizes(maxWidth: 1000 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
 export default SpecialPage;

@@ -1,8 +1,20 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Img from 'gatsby-image';
 
-const VeganPage = () => (
-  <div>
+const VeganPage = ({ data }) => (
+  <div style={{ gridArea: 'content' }}>
+    <Img
+      style={{ 
+        zIndex: -1,
+        position: "fixed",
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        height: "100%"
+      }}
+      sizes={data.backgroundImage.sizes}
+    />
     <Helmet
       title="Vegane Teigwaren von Ingredienza | Ingredienza"
       meta={[
@@ -96,4 +108,13 @@ const VeganPage = () => (
   </div>
 )
 
+export const query = graphql`
+  query VeganImageQuery {
+    backgroundImage: imageSharp(id: { regex: "/spez4/" }) {
+      sizes(maxWidth: 1000 ) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`;
 export default VeganPage;

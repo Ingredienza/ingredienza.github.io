@@ -58,7 +58,7 @@ const IndexPage = ({ data }) => (
 )
 export const query = graphql`
   query IndexImageQuery {
-    backgroundImage: imageSharp(id: { regex: "/nudeln/" }) {
+    backgroundImage: imageSharp(id: { regex: "/nudeln3/" }) {
       sizes(maxWidth: 1000 ) {
         ...GatsbyImageSharpSizes
       }

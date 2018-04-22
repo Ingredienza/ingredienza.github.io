@@ -3,9 +3,16 @@ import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
 
 const GnocchiPage = ({ data }) => (
-  <div>
+  <div style={{ gridArea: 'content' }}>
     <Img
-      style={{ position: 'fixed', zIndex: -1, width: '100%', height: '100%'  }}
+      style={{ 
+        zIndex: -1,
+        position: "fixed",
+        right: 0,
+        bottom: 0,
+        width: "100%",
+        height: "100%"
+      }}
       sizes={data.backgroundImage.sizes}
     />
     <Helmet
