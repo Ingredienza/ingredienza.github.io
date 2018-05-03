@@ -5,8 +5,14 @@ const ProductRow = ({ product: { articleNr, description, unit, price } }) => (
   <tr>
     <td>{articleNr}</td>
     <td>{description}</td>
-    <td>{String.fromCharCode(162) + ' ' + String.fromCharCode(224) + ' ' + unit}</td>
-    <td>Fr. {price}</td>
+    { unit ? ( 
+        <td>{String.fromCharCode(162) + ' ' + String.fromCharCode(224) + ' ' + unit}</td>
+      ) : <td></td>
+    }
+    { unit ? ( 
+        <td>Fr. {price}</td>
+      ) : <td></td>
+    }
   </tr>
 )
 
