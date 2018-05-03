@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
+import ProductTable from '../../components/ProductTable';
 
 const VeganPage = ({ data }) => (
   <div style={{ gridArea: 'content' }}>
@@ -31,79 +32,64 @@ const VeganPage = ({ data }) => (
     Die gefüllten veganen Teigwaren bieten wir in Kartons à 2 kg lose schockgefroren
     an.
     </p>
-    <table border="0" bordercolor="#000000" cellpadding="2" cellspacing="2" width="660">
-      <colgroup>
-        <col width="100" />
-        <col width="350" />
-        <col width="100" />
-        <col width="100" />
-      </colgroup>
-      <tr>
-        <th>Art.Nr</th>
-        <th>Produkt</th>
-        <th>Einheit</th>
-        <th>Fr. / kg</th>
-      </tr>
-      <tr>
-        <td>V ITA007</td>
-        <td>Aubergine-Mezzelune Grande im Kurkumateig</td>
-        <td>&cent; &agrave; 2kg TK</td>
-        <td>Fr. 24.50</td>
-      </tr> 
-      <tr>
-        <td>V 40002</td>
-        <td>Basilikum-Triangoli im Kurkumateig</td>
-        <td>&cent; &agrave; 2kg TK</td>
-        <td>Fr. 23.50</td>
-      </tr>
-      <tr>
-        <td>V 40001</td>
-        <td>No-Muh (by Vegusto) Rondellen im Spinatteig</td>
-        <td>&cent; &agrave; 2kg TK</td>
-        <td>Fr. 24.50</td>
-      </tr>
-      <tr>
-        <td>VITA005</td>
-        <td>Zitronen-Thymian-Raviolo Grande 7 x 9cm im weissen Teig <br /> (extra viel F&uuml;llung)</td>
-        <td>&cent; &agrave; 2kg TK</td>
-        <td>Fr. 24.50</td>
-      </tr>
-      <tr>
-        <td>V40005</td>
-        <td>Steinpilz-Mezzelune Grande im Dinkelteig</td>
-        <td>&cent; &agrave; 2kg TK</td>
-        <td>Fr. 25.50</td>
-      </tr>
-      <tr>
-        <td>V50012</td>
-        <td>Pastinaken-Rechtecke im Spinatteig (ab Oktober)</td>
-        <td>&cent; &agrave; 2kg TK</td>
-        <td>Fr. 19.50</td>
-      </tr>
-    </table>
-
-    <p> Auf Bestellung erh&auml;ltlich. Mindestmenge 5&cent; &agrave; 3kg TK </p>
-
-    <table border="0" bordercolor="#000000" cellpadding="2" cellspacing="2" width="660">
-      <colgroup>
-        <col width="100" />
-        <col width="350" />
-        <col width="100" />
-        <col width="100" />
-      </colgroup>
-      <tr>
-        <td>VB600025</td>
-        <td>Bio-weisse Nudeln</td>
-        <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 9.50</td>
-      </tr>
-      <tr>
-        <td>V600135</td>
-        <td>Spinat-Nudeln</td>
-        <td>&cent; &agrave; 3kg TK</td>
-        <td>Fr. 10.50</td>
-      </tr>
-    </table>
+    <ProductTable
+      showHeader={true}
+      products={[
+        {
+          articleNr: 'V ITA007',
+          description: `Aubergine-Mezzelune Grande im Kurkumateig`,
+          unit: '2kg TK',
+          price: '24.50',
+        },
+        {
+          articleNr: 'V 40002',
+          description: `Basilikum-Triangoli im Kurkumateig`,
+          unit: '2kg TK',
+          price: '23.50',
+        },
+        {
+          articleNr: 'V 40001',
+          description: `No-Muh (by Vegusto) Rondellen im Spinatteig`,
+          unit: '2kg TK',
+          price: '24.50',
+        },
+        {
+          articleNr: 'VITA005',
+          description: `Zitronen-Thymian-Raviolo Grande 7 x 9cm im weissen Teig\n(extra viel Füllung)`,
+          unit: '2kg TK',
+          price: '24.50',
+        },
+        {
+          articleNr: 'V40005',
+          description: `Steinpilz-Mezzelune Grande im Dinkelteig`,
+          unit: '2kg TK',
+          price: '25.50',
+        },
+        {
+          articleNr: 'V50012',
+          description: `Pastinaken-Rechtecke im Spinatteig (ab Oktober)`,
+          unit: '2kg TK',
+          price: '19.50',
+        },
+      ]}
+    />
+    <p> Auf Bestellung erhältlich. Mindestbestellmenge 5&cent; &agrave; 3kg TK </p>
+    <ProductTable
+      products={[
+        {
+          articleNr: 'VB600025',
+          description: `Bio-weisse Nudeln`,
+          unit: '2kg TK',
+          price: '9.50',
+        },
+        {
+          articleNr: 'V600135',
+          description: `Spinat-Nudeln`,
+          unit: '2kg TK',
+          price: '10.50',
+        },
+      ]}
+    />
     <p>Vegane Wunsch-Nudeln auf Anfrage.</p>
   </div>
 )
