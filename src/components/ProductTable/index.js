@@ -9,9 +9,10 @@ const ProductRow = ({ product: { articleNr, description, unit, price } }) => (
         <td>{String.fromCharCode(162) + ' ' + String.fromCharCode(224) + ' ' + unit}</td>
       ) : <td></td>
     }
-    { unit ? ( 
+    { // Check if string starts with a number  
+      !isNaN(parseInt(price)) ? ( 
         <td>Fr. {price}</td>
-      ) : <td></td>
+      ) : <td>{price}</td>
     }
   </tr>
 )

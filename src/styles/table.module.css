@@ -9,17 +9,23 @@
 	
 	width: 900px;
 	position: relative; 
+  padding: 0px;
 }
+
+td {
+  padding-right: 0px;
+}
+
 /* first column */
 td:nth-child(1) {
   vertical-align: top;
-  width: 50px;
+  width: 45px;
 }
 
 /* second column */
 td:nth-child(2) {
   vertical-align: top;
-	width: 490px;
+	width: 500px;
 }
 
 /* third column */
