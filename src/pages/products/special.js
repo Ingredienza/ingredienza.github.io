@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
+import ProductTable from '../../components/ProductTable';
 
 const SpecialPage = ({ data }) => (
   <div style={{ gridArea: 'content' }}>
@@ -29,158 +30,149 @@ const SpecialPage = ({ data }) => (
       bestimmen den Teig als auch die Form Ihrer Pasta. Je nach Rezeptur liegt der
       Mindestbezug bei unseren Spezialitäten bei 30–40 kg. 
     </p>
-    <table border="0" bordercolor="#000000" cellpadding="2" cellspacing="2" width="660">
-      <colgroup>
-        <col width="100" />
-        <col width="350" />
-        <col width="100" />
-        <col width="100" />
-      </colgroup>
-			<tr>
-				<th>Art.Nr</th>
-				<th>Produkt</th>
-				<th>Einheit</th>
-				<th>Fr. / kg</th>
-			</tr>
-			<tr>
-				<td>40034</td>
-				<td>Apfel-Thymian mit Honig u. Ricotta</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 23.50</td>
-			</tr>
-			<tr>
-				<td>B50003</td>
-				<td>Broccoli-Quark</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 20.50</td>
-			</tr>
-			<tr>
-				<td>40025</td>
-				<td>Chorizobr&auml;t-Rahm</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 27.--</td>
-			</tr>	
-			<tr>
-				<td>40027</td>
-				<td>Feigen-Mascarpone (Dessertravioli)</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 25.--</td>
-			</tr>
-			<tr>
-				<td>40020</td>
-				<td>Geissk&auml;se mit Rosinen und Peperoncino</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 22.50</td>
-			</tr>
-			<tr>
-				<td>40009</td>
-				<td>Gorgonzola</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 24.50</td>
-			</tr>
-			<tr>
-				<td>40009B</td>
-				<td>Gorgonzola-Baumnuss</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 25.--</td>
-			</tr>
-			<tr>
-				<td>40021</td>
-				<td>Kalbsbr&auml;t-Mangold (Sommer)</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 21.50</td>
-			</tr>
-			<tr>
-				<td>50016</td>
-				<td>Kerbel-Ricotta-Knoblauch (Sommer)</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 20.50</td>
-			</tr>
-			<tr>
-				<td>50005</td>
-				<td>K&uuml;rbis-Amaretti-Senffr&uuml;chte (Herbst)</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 23.50</td>
-			</tr>
-			<tr>
-				<td>40039</td>
-				<td>Lachs mit Fenchel</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 23.50</td>
-			</tr>
-			<tr>
-				<td>40028</td>
-				<td>Lauch mit Gem&uuml;sebrunoise</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 22.50</td>
-			</tr>
-			<tr>
-				<td>MARRON</td>
-				<td>Marron glacè-Orange (Herbst)</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 22.50</td>
-			</tr>
-			<tr>
-				<td>50013</td>
-				<td>Mousseline de saumon<br />Lachs, Rahm, Gem&uuml;sebrunoise und Gew&uuml;rze</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 25.50</td>
-			</tr>
-			<tr>
-				<td>40035</td>
-				<td>Randen-Apfel</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 19.50</td>
-			</tr>			
-			<tr>
-				<td>40032</td>
-				<td>Rosenkohl-Rohschinken (Winter)</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 23.50</td>
-			</tr>
-			<tr>
-				<td>40036</td>
-				<td>R&uuml;ebli-Rhabarber</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 19.50</td>
-			</tr>
-			<tr>
-				<td>20003</td>
-				<td>Schinken-Ricotta-Schnittlauch</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 28.50</td>
-			</tr>			
-			<tr>
-				<td>40037</td>
-				<td>Sellerie</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 19.50</td>
-			</tr>
-			<tr>
-				<td>30002</td>
-				<td>Shii Take-Soja-Haselnuss</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 27.--</td>
-			</tr>
-			<tr>
-				<td>40024</td>
-				<td>Steinpilz-Spinat-Ricotta</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 24.50</td>
-			</tr>
-			<tr>
-				<td>40017</td>
-				<td>Trevisano (Sommer)</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 29.50</td>
-			</tr>
-			<tr>
-				<td>40038</td>
-				<td>Vermicelles Dessertravioli</td>
-				<td>&cent; &agrave; 2kg TK</td>
-				<td>Fr. 25.--</td>
-			</tr>
-		</table>
+    <ProductTable
+      showHeader={true}
+      products={[
+        {
+          articleNr: '40034',
+          description: `Apfel-Thymian mit Honig und Ricotta`,
+          unit: '2kg TK',
+          price: '23.50',
+        },
+        {
+          articleNr: 'B50003',
+          description: `Broccoli-Quark`,
+          unit: '2kg TK',
+          price: '20.50',
+        },
+        {
+          articleNr: '40025',
+          description: `Chorizobrät-Rahm`,
+          unit: '2kg TK',
+          price: '27.--',
+        },
+        {
+          articleNr: '40027',
+          description: `Feigen-Mascarpone (Dessertravioli)`,
+          unit: '2kg TK',
+          price: '25.--',
+        },
+        {
+          articleNr: '40020',
+          description: `Geisskäse mit Rosinen und Peperoncino`,
+          unit: '2kg TK',
+          price: '22.50',
+        },
+        {
+          articleNr: '40009',
+          description: `Gorgonzola`,
+          unit: '2kg TK',
+          price: '24.50',
+        },
+        {
+          articleNr: '40009B',
+          description: `Gorgonzola-Baumnuss`,
+          unit: '2kg TK',
+          price: '25.--',
+        },
+        {
+          articleNr: '40021',
+          description: `Kalbsbrät-Mangold (Sommer)`,
+          unit: '2kg TK',
+          price: '21.50',
+        },
+        {
+          articleNr: '50016',
+          description: `Kerbel-Ricotta-Knoblauch (Sommer)`,
+          unit: '2kg TK',
+          price: '20.50',
+        },
+        {
+          articleNr: '50005',
+          description: `Kürbis-Amaretti-Senffrüchte (Herbst)`,
+          unit: '2kg TK',
+          price: '23.50',
+        },
+        {
+          articleNr: '40039',
+          description: `Lachs mit Fenchel`,
+          unit: '2kg TK',
+          price: '23.50',
+        },
+        {
+          articleNr: '40028',
+          description: `Lauch mit Gemüsebrunoise`,
+          unit: '2kg TK',
+          price: '22.50',
+        },
+        {
+          articleNr: 'MARRON',
+          description: `Marron glacè-Orange (Herbst)`,
+          unit: '2kg TK',
+          price: '22.50',
+        },
+        {
+          articleNr: '50013',
+          description: `Mousseline de saumon\nLachs, Rahm, Gemüsebrunoise und Gewürze`,
+          unit: '2kg TK',
+          price: '25.50',
+        },
+        {
+          articleNr: '40035',
+          description: `Randen-Apfel`,
+          unit: '2kg TK',
+          price: '19.50',
+        },
+        {
+          articleNr: '40032',
+          description: `Rosenkohl-Rohschinken (Winter)`,
+          unit: '2kg TK',
+          price: '23.50',
+        },
+        {
+          articleNr: '40036',
+          description: `Rüebli-Rhabarber`,
+          unit: '2kg TK',
+          price: '19.50',
+        },
+        {
+          articleNr: '20003',
+          description: `Schinken-Ricotta-Schnittlauch`,
+          unit: '2kg TK',
+          price: '28.50',
+        },
+        {
+          articleNr: '40037',
+          description: `Sellerie`,
+          unit: '2kg TK',
+          price: '19.50',
+        },
+        {
+          articleNr: '30002',
+          description: `Shii Take-Soja-Haselnuss`,
+          unit: '2kg TK',
+          price: '27.--',
+        },
+        {
+          articleNr: '40024',
+          description: `Steinpilz-Spinat-Ricotta`,
+          unit: '2kg TK',
+          price: '24.50',
+        },
+        {
+          articleNr: '40017',
+          description: `Trevisano (Sommer)`,
+          unit: '2kg TK',
+          price: '29.50',
+        },
+        {
+          articleNr: '40038',
+          description: `Vermicelles Dessertravioli`,
+          unit: '2kg TK',
+          price: '25.--',
+        },
+      ]}
+    />
   </div>
 )
 
