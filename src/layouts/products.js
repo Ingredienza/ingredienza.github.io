@@ -22,26 +22,25 @@ const TemplateWrapper = ({ children, lockScreen }) => (
     <Navigation
       links={[
         {to: '/', text: 'Home'},
-        {to: '/places', text: 'Standorte'},
+        {to: '/places/', text: 'Standorte'},
         {to: '/products/', text: 'Produkte'},
         {to: '/pricelist/', text: 'Preisliste'},
-        {to: '/terms', text: 'Konditionen'},
-        {to: '/contact', text: 'Kontakt'},
+        {to: '/terms/', text: 'Konditionen'},
+        {to: '/contact/', text: 'Kontakt'},
       ]}
     />
-    
+    <Sidebar
+      links={[
+        {to: '/products/gnocchi/', text: 'Gnocchi'},
+        {to: '/products/ravioli/', text: 'Ravioli'},
+        {to: '/products/noodle/', text: 'Nudeln'},
+        {to: '/products/season/', text: 'Saisonprodukte & Spezialitäten'},
+        {to: '/products/special/', text: 'Teigwaren mit Spezialfüllung'},
+        {to: '/products/vegan/', text: 'Ingredienza goes vegan'},
+        {to: '/products/fatto/', text: 'Fatto a mano'},
+      ]}
+    />
     <main className={styles.content}>
-      <Sidebar
-        links={[
-          {to: '/products/gnocchi/', text: 'Gnocchi'},
-          {to: '/products/ravioli/', text: 'Ravioli'},
-          {to: '/products/noodle/', text: 'Nudeln'},
-          {to: '/products/season/', text: 'Saisonprodukte & Spezialitäten'},
-          {to: '/products/special/', text: 'Teigwaren mit Spezialfüllung'},
-          {to: '/products/vegan/', text: 'Ingredienza goes vegan'},
-          {to: '/products/fatto/', text: 'Fatto a mano'},
-        ]}
-      />
       {children()}
     </main>
     <Footer />

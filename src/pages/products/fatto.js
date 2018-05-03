@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
+import ProductTable from '../../components/ProductTable';
 
 const FattoPage = ({ data }) => (
   <div style={{ gridArea: 'content' }}>
@@ -28,60 +29,51 @@ const FattoPage = ({ data }) => (
       viel Sorgfalt von Hand hergestellt. „Fatto a mano“ gehört zum Exklusivsten,
       was es im Pastasektor zu entdecken gibt. 
     </p>
-      <table border="0" bordercolor="#000000" cellpadding="2" cellspacing="2" width="660">
-        <colgroup>
-          <col width="100" />
-          <col width="350" />
-          <col width="100" />
-          <col width="100" />
-        </colgroup>
-        <tr>
-          <th>Art.Nr</th>
-          <th>Produkt</th>
-          <th>Einheit</th>
-          <th>Fr. / kg</th>
-        </tr>
-        <tr>
-          <td>700110</td>
-          <td>Steinpilz-Frischk&auml;se-Tortogrossi<br /> im schwarz-gelb gestreiften Kleid,<br /> ca. 50g /St&uuml;ck.</td>
-          <td>&cent; &agrave; 2kg TK</td>
-          <td>Fr. 65.--</td>
-        </tr>
-        <tr>
-          <td>70050</td>
-          <td>Cuore d'amore mit feiner Ricotta-Zitronenf&uuml;llung,<br /> ca. 50g /St&uuml;ck.</td>
-          <td>&cent; &agrave; 1kg TK</td>
-          <td>Fr. 45.--</td>
-        </tr>
-        <tr>
-          <td>70070</td>
-          <td>Safranstern mit weisser Tr&uuml;ffelf&uuml;llung, ca. 50g /St&uuml;ck. <br /> (November bis Januar)</td>
-          <td>&cent; &agrave; 1kg TK</td>
-          <td>Fr. 69.--</td>
-        </tr>
-    </table>
-    <p> Auf Bestellung erh&auml;ltlich. Mindestmenge 5 kg. </p>
-    <table border="0" bordercolor="#000000" cellpadding="2" cellspacing="2" width="660">
-      <colgroup>
-        <col width="100" />
-        <col width="350" />
-        <col width="100" />
-        <col width="100" />
-      </colgroup>
-      <tr>
-        <td>70020</td>
-        <td>Steinpilz-Frischk&auml;se Borsellin im Eierteig <br /> mit einer Lilienbl&uuml;te gebunden, ca. 30g /St&uuml;ck.</td>
-        <td>&cent; &agrave; 1kg TK</td>
-        <td>Fr. 67.--</td>
-      </tr>
-      <tr>
-        <td>70020S</td>
-        <td>Steinpilz-Frischkäse Borsellin im Sepiateig <br /> mit einer Lilienblütegebunden, ca. 30g /Stück.</td>
-        <td>&cent; &agrave; 1kg TK</td>
-        <td>Fr. 69.--</td>
-      </tr>
-    </table>
+    <ProductTable
+      showHeader={true}
+      products={[
+        {
+          articleNr: '700110',
+          description: `Steinpilz-Frischkäse-Tortogrossi\nim schwarz-gelb gestreiften Kleid, ca. 50g /Stück`,
+          unit: '2kg TK',
 
+          price: '65.--',
+        }, 
+        {
+          articleNr: '70050',
+          description: `Cuore d’amore mit feiner Ricotta-Zitronenfüllung\nca. 50g /Stück`,
+          unit: '1kg TK',
+
+          price: '45.--',
+        }, 
+        {
+          articleNr: '70070',
+          description: `Safranstern mit weisser Trüffelfüllung ca. 50g /Stück\n(November bis Januar)`,
+          unit: '1kg TK',
+
+          price: '69.--',
+        }, 
+      ]}
+    />
+    <p> Auf Bestellung erhältlich. Mindestmenge 5 kg. </p>
+    <ProductTable
+      products={[
+        {
+          articleNr: '70020',
+          description: `Steinpilz-Frischkäse Borsellini im Eierteig\nmit einer Lilienblüte gebunden, ca. 30gr/Stück`,
+          unit: '1kg TK',
+
+          price: '67.--',
+        }, 
+        {
+          articleNr: '70020S',
+          description: `Steinpilz-Frischkäse Borsellini im Sepiateig\nmit einer Lilienblüte gebunden, ca. 30gr/Stück`,
+          unit: '1kg TK',
+
+          price: '69.--',
+        }, 
+      ]}
+    />
   </div>
 )
 

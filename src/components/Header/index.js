@@ -6,7 +6,7 @@ import classNames from 'classNames';
 
 import Navigation from '../Navigation';
 
-const Header = ({ toggleNav, showNav, links }) => (
+const Header = ({ toggleNav, showNav }) => (
   <header>
       <div
         className={classNames({
