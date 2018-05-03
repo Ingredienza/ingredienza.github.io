@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
+import ProductTable from '../../components/ProductTable';
 
 const NoodlePage = ({ data }) => (
   <div style={{ gridArea: 'content' }}>
@@ -31,222 +32,191 @@ const NoodlePage = ({ data }) => (
       Schnittbreiten fragen Sie bitte nach.
     </p>
     <p><b>Bio-Nudeln</b></p>
-    <table border="0" bordercolor="#000000" cellpadding="2" cellspacing="2" width="660">
-        <colgroup>
-          <col width="100" />
-          <col width="350" />
-          <col width="100" />
-          <col width="100" />
-        </colgroup>
-        <tr>
-          <th>Art.Nr</th>
-          <th>Produkt</th>
-          <th>Einheit</th>
-          <th>Fr. / kg</th>
-        </tr>
-        <tr>
-          <td>B60001</td>
-          <td>Bio Nur-Eier-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 14.50</td>      
-        </tr>
-        <tr>
-          <td>B60002</td>
-          <td>Bio 5-Eier-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 12.50</td>
-        </tr>
-        <tr>
-          <td>B60013</td>
-          <td>Bio Spinat-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 13.50</td>
-        </tr>
-    </table>
-
+    <ProductTable
+      showHeader={true}
+      products={[
+        {
+          articleNr: 'B60001',
+          description: `Bio Nur-Eier-Nudeln`,
+          unit: '3kg TK',
+          price: '14.50',
+        },
+        {
+          articleNr: 'B60002',
+          description: `Bio 5-Eier-Nudeln`,
+          unit: '3kg TK',
+          price: '12.50',
+        },
+        {
+          articleNr: 'B60013',
+          description: `Bio Spinat-Nudeln`,
+          unit: '3kg TK',
+          price: '13.50',
+        },
+      ]}
+    />
     <p><b>Konventionelle Nudeln</b></p>
-
-    <table border="0" bordercolor="#000000" cellpadding="5" cellspacing="0" width="660">
-        <colgroup>
-          <col width="100" />
-          <col width="350" />
-          <col width="100" />
-          <col width="100" />
-        </colgroup>
-        <tr>
-          <th>Art.Nr</th>
-          <th>Produkt</th>
-          <th>Einheit</th>
-          <th>Fr. / kg</th>
-        </tr>
-        <tr>
-          <td>60002</td>
-          <td>5-Eier-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr 10.50</td>
-        </tr>
-        
-        <tr>
-          <td>60003</td>
-          <td>Safran-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 15.--</td>
-        </tr>
-        <tr>
-          <td>60023</td>
-          <td>Sepia-Nudeln (schwarz)</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 15.50</td>
-        </tr>
-        <tr>
-          <td>60013</td>
-          <td>Spinat-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 11.00</td>
-        </tr>
-    </table>
-
-    <p>Die nachfolgenden Nudeln sind nur auf Bestellung erh&auml;ltlich.<br /> Mindestbezug 5&cent; &agrave; 3kg</p>
-    <table border="0" bordercolor="#000000" cellpadding="5" cellspacing="0" width="660">
-        <colgroup>
-          <col width="100" />
-          <col width="350" />
-          <col width="100" />
-          <col width="100" />
-        </colgroup>
-        <tr>
-          <th>Art.Nr</th>
-          <th>Produkt</th>
-          <th>Einheit</th>
-          <th>Fr. / kg</th>
-        </tr>
-        <tr>
-          <td>B60030</td>
-          <td>Bio rote Peperoni-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 14.50</td>
-        </tr>
-        <tr>
-          <td>B60029</td>
-          <td>Dinkel-Nudeln mit 100% Dinkelmehl</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 11.50</td>
-        </tr>
-        <tr>
-          <td>60015</td>
-          <td>Basilikum-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr 11.--</td>
-        </tr>
-        <tr>
-          <td>60020</td>
-          <td>Buchweizen-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 13.50</td>
-        </tr>
-        <tr>
-          <td>60027</td>
-          <td>Curry-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 11.--</td>
-        </tr>
-        <tr>
-          <td>60014</td>
-          <td>Dill-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 12.50</td>
-        </tr>
-        <tr>
-          <td>60019</td>
-          <td>Espresso-Nudeln - Zu Pilzen und Kalb ein Gedicht.</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr 12.50</td>
-        </tr>
-        <tr>
-          <td>60026</td>
-          <td>Kastanien-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 15.--</td>
-        </tr>
-        <tr>
-          <td>60005</td>
-          <td>Knoblauch-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 12.50</td>
-        </tr>
-        <tr>
-          <td>60033</td>
-          <td>K&uuml;rbis-Curry-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 11.--</td>
-        </tr>
-        <tr>
-          <td>60022</td>
-          <td>Mohn-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 11.50</td>
-        </tr>
-        <tr>
-          <td>60042</td>
-          <td>Orangen-Peperoncino-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 13.50</td>
-        </tr>
-        <tr>
-          <td>60012</td>
-          <td>Petersilien-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 12.50</td>
-        </tr>
-        <tr>
-          <td>60017</td>
-          <td>Pfefferminz-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 13.--</td>
-        </tr>
-        <tr>
-          <td>60011</td>
-          <td>Randen-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 11.50</td>
-        </tr>
-        <tr>
-          <td>60018</td>
-          <td>Schwarze Oliven-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 12.50</td>
-        </tr>
-        <tr>
-          <td>60046</td>
-          <td>Schnittlauch-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 13.--</td>
-        </tr>
-        <tr>
-          <td>60006</td>
-          <td>Sesam-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 13.--</td>
-        </tr>
-        <tr>
-          <td>60010</td>
-          <td>Tomaten-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 10.50</td>
-        </tr>
-        <tr>
-          <td>60021</td>
-          <td>Zimt-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 11.50</td>
-        </tr>
-        <tr>
-          <td>60008</td>
-          <td>Zitronen-Nudeln</td>
-          <td>&cent; &agrave; 3kg TK</td>
-          <td>Fr. 12.--</td>
-        </tr>
-    </table>
+    <ProductTable
+      showHeader={true}
+      products={[
+        {
+          articleNr: '60002',
+          description: `5-Eier-Nudeln`,
+          unit: '3kg TK',
+          price: '10.50',
+        },
+        {
+          articleNr: '60003',
+          description: `Safran-Nudeln`,
+          unit: '3kg TK',
+          price: '15.--',
+        },
+        {
+          articleNr: '60023',
+          description: `Sepia-Nudeln (schwarz)`,
+          unit: '3kg TK',
+          price: '15.50',
+        },
+        {
+          articleNr: '60013',
+          description: `Spinat-Nudeln`,
+          unit: '3kg TK',
+          price: '11.--',
+        },
+      ]}
+    />
+    <p>Die nachfolgenden Nudeln sind nur auf Bestellung erhältlich.<br /> Mindestbezug 5&cent; &agrave; 3kg</p>
+    <ProductTable
+      showHeader={true}
+      products={[
+        {
+          articleNr: 'B60030',
+          description: `Bio rote Peperoni-Nudeln`,
+          unit: '3kg TK',
+          price: '14.50',
+        },
+        {
+          articleNr: 'B60029',
+          description: `Dinkel-Nudeln mit 100% Dinkelmehl`,
+          unit: '3kg TK',
+          price: '11.50',
+        },
+        {
+          articleNr: '60015',
+          description: `Basilikum-Nudeln`,
+          unit: '3kg TK',
+          price: '11.--',
+        },
+        {
+          articleNr: '60020',
+          description: `Buchweizen-Nudeln`,
+          unit: '3kg TK',
+          price: '13.50',
+        },
+        {
+          articleNr: '60027',
+          description: `Curry-Nudeln`,
+          unit: '3kg TK',
+          price: '11.--',
+        },
+        {
+          articleNr: '60014',
+          description: `Dill-Nudeln`,
+          unit: '3kg TK',
+          price: '12.50',
+        },
+        {
+          articleNr: '60019',
+          description: `Espresso-Nudeln - Zu Pilzen und Kalb ein Gedicht`,
+          unit: '3kg TK',
+          price: '12.50',
+        },
+        {
+          articleNr: '60026',
+          description: `Kastanien-Nudeln`,
+          unit: '3kg TK',
+          price: '15.--',
+        },
+        {
+          articleNr: '60005',
+          description: `Knoblauch-Nudeln`,
+          unit: '3kg TK',
+          price: '12.50',
+        },
+        {
+          articleNr: '60033',
+          description: `Kürbis-Curry-Nudeln`,
+          unit: '3kg TK',
+          price: '11.--',
+        },
+        {
+          articleNr: '60022',
+          description: `Mohn-Nudeln`,
+          unit: '3kg TK',
+          price: '11.50',
+        },
+        {
+          articleNr: '60042',
+          description: `Orangen-Peperoncino-Nudeln`,
+          unit: '3kg TK',
+          price: '13.50',
+        },
+        {
+          articleNr: '60012',
+          description: `Petersilien-Nudeln`,
+          unit: '3kg TK',
+          price: '12.50',
+        },
+        {
+          articleNr: '60017',
+          description: `Pfefferminz-Nudeln`,
+          unit: '3kg TK',
+          price: '13.--',
+        },
+        {
+          articleNr: '60011',
+          description: `Randen-Nudeln`,
+          unit: '3kg TK',
+          price: '11.50',
+        },
+        {
+          articleNr: '60018',
+          description: `Oliven-Nudeln`,
+          unit: '3kg TK',
+          price: '12.50',
+        },
+        {
+          articleNr: '60046',
+          description: `Schnittlauch-Nudeln`,
+          unit: '3kg TK',
+          price: '13.--',
+        },
+        {
+          articleNr: '60006',
+          description: `Sesam-Nudeln`,
+          unit: '3kg TK',
+          price: '13.--',
+        },
+        {
+          articleNr: '60010',
+          description: `Tomaten-Nudeln`,
+          unit: '3kg TK',
+          price: '10.50',
+        },
+        {
+          articleNr: '60021',
+          description: `Zimt-Nudeln`,
+          unit: '3kg TK',
+          price: '11.50',
+        },
+        {
+          articleNr: '60008',
+          description: `Zitronen-Nudeln`,
+          unit: '3kg TK',
+          price: '12.--',
+        },
+      ]}
+    />
   </div>
 )
 
