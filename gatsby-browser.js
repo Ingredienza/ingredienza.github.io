@@ -1,6 +1,7 @@
 import React from 'react'
 import { Router } from 'react-router-dom'
 import { Provider } from 'react-redux'
+import objectFitImages from 'object-fit-images'
 
 import createStore from './src/state/createStore'
 
@@ -14,4 +15,9 @@ exports.replaceRouterComponent = ({ history }) => {
   )
 
   return ConnectedRouterWrapper
+}
+
+
+exports.onInitialClientRender = () => {
+  objectFitImages()
 }

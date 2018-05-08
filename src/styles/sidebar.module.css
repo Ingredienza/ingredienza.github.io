@@ -1,6 +1,12 @@
 aside {
   grid-area: sidebar;
+
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+
+  -ms-grid-row: 2;
 }
+ 
 aside a {
   transition: all .2s ease-in-out;
   color: #000;
