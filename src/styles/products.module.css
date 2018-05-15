@@ -10,11 +10,10 @@
   grid-template-areas: 
     "header header" 
     "sidebar main" 
-    ". footer";
 }
 
 .content {
-  margin: 2%;
+  margin: 1%;
   grid-area: main;
 
   -ms-grid-column: 2;
@@ -33,7 +32,6 @@
       "header header" 
       "sidebar ." 
       "main main"
-      ". footer";
   }
   .content {
     max-width: 90%;

@@ -29,8 +29,8 @@ const TemplateWrapper = ({ children, lockScreen }) => (
     />
     <main className={styles.content}>
       {children()}
+      <Footer />
     </main>
-    <Footer />
   </div>
 )
 

@@ -1,23 +1,4 @@
 .footer {
-  grid-area: footer;
   z-index: 10000;
-  justify-self: end;
-
-  -ms-grid-column-align: end;
-
-  
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-
-  -ms-grid-row: 3;
-}
-
-@media only screen and (max-width: 768px) {
-  .footer {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-
-    -ms-grid-row: 4;
-  }
-
+  float: right;
 }

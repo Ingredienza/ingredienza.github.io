@@ -1,4 +1,5 @@
 aside {
+  margin: 1%;
   grid-area: sidebar;
 
   -ms-grid-column: 1;
