@@ -29,21 +29,21 @@ const TemplateWrapper = ({ children, lockScreen }) => (
         {to: '/contact/', text: 'Kontakt'},
       ]}
     />
-    <Sidebar
-      links={[
-        {to: '/products/gnocchi/', text: 'Gnocchi'},
-        {to: '/products/ravioli/', text: 'Ravioli'},
-        {to: '/products/noodle/', text: 'Nudeln'},
-        {to: '/products/season/', text: 'Saisonprodukte & Spezialitäten'},
-        {to: '/products/special/', text: 'Teigwaren mit Spezialfüllung'},
-        {to: '/products/vegan/', text: 'Ingredienza goes vegan'},
-        {to: '/products/fatto/', text: 'Fatto a mano'},
-      ]}
-    />
+      <Sidebar
+        links={[
+          {to: '/products/gnocchi/', text: 'Gnocchi'},
+          {to: '/products/ravioli/', text: 'Ravioli'},
+          {to: '/products/noodle/', text: 'Nudeln'},
+          {to: '/products/season/', text: 'Saisonprodukte & Spezialitäten'},
+          {to: '/products/special/', text: 'Teigwaren mit Spezialfüllung'},
+          {to: '/products/vegan/', text: 'Ingredienza goes vegan'},
+          {to: '/products/fatto/', text: 'Fatto a mano'},
+        ]}
+      />
     <main className={styles.content}>
       {children()}
-      <Footer />
     </main>
+    <Footer />
   </div>
 )
 

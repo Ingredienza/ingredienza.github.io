@@ -2,21 +2,28 @@
   height: 100vh;
   width: 100vw;
   display: grid;
-  grid-template-columns: auto 300px;
-  grid-template-rows: 50px auto 100px;
-  grid-template-areas: 
-    "header header" 
-    "main main";
+  grid-template-columns: 
+    [full-start] minmax(1em, 1fr) 
+    [main-start] minmax(0, 40em) [main-end]
+    minmax(1em, 1fr) [full-end];  
+	-ms-grid-columns:
+    minmax(1em, 1fr) 
+    minmax(0, 40em)
+    minmax(1em, 1fr);  
+		
+  grid-template-rows: 50px auto auto;
 }
 
 .content {
-  margin: 1%;
-  grid-area: main;
+	grid-column: main;
+	-ms-grid-column: 2;
 
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
+	grid-row: 2;
+	-ms-grid-row: 2;
+}
 
-  -ms-grid-row: 2;
+.splash {
+	grid-column: full;
 }
 
 .locked {

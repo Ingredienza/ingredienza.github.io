@@ -2,9 +2,10 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Img from 'gatsby-image';
 import ProductTable from '../../components/ProductTable';
+import styles from '../../styles/products.module.css';
 
 const FattoPage = ({ data }) => (
-  <div style={{ gridArea: 'content' }}>
+  <div className={styles.subContent}>
     <Img
       style={{ 
         zIndex: -1,
