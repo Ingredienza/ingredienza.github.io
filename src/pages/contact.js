@@ -34,7 +34,7 @@ const ContactPage = ({ data }) => (
     <p>
       Tel: +41(0)31 382 42 42<br />
       Fax: +41(0)31 382 49 05<br />
-      Mail: <a href="mailto:info@ingredienza.ch?subject=Kontakt%20Ingredienza.ch"> info(at)ingredienza.ch </a>
+      Mail: <a style={{ color: '#000' }}href="mailto:info@ingredienza.ch?subject=Kontakt%20Ingredienza.ch"> info(at)ingredienza.ch </a>
     </p>
 
     <p>

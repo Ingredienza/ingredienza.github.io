@@ -12,6 +12,12 @@
     minmax(1em, 1fr);  
     
   grid-template-rows: 50px auto auto;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
+
 }
 
 /* Position content */

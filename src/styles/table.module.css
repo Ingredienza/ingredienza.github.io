@@ -16,10 +16,14 @@ td {
   padding-right: 0px;
 }
 
+th {
+  padding-right: 0px;
+}
+
 /* first column */
 td:nth-child(1) {
   vertical-align: top;
-  width: 45px;
+  width: 93px;
 }
 
 /* second column */

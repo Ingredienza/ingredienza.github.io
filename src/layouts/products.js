@@ -40,7 +40,7 @@ const TemplateWrapper = ({ children, lockScreen }) => (
           {to: '/products/fatto/', text: 'Fatto a mano'},
         ]}
       />
-    <main className={styles.content}>
+    <main className={styles.content} lang="de">
       {children()}
     </main>
     <Footer />

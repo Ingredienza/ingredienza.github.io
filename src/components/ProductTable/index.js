@@ -23,7 +23,7 @@ const ProductTable = ({ showHeader, products }) => (
       <tbody>
         { showHeader? (
             <tr>
-              <th>Art. Nr</th>
+              <th>Art.Nr</th>
               <th>Produkt</th>
               <th>Einheit</th>
               <th>Fr. / kg</th>

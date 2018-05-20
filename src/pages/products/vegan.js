@@ -79,13 +79,13 @@ const VeganPage = ({ data }) => (
         {
           articleNr: 'VB600025',
           description: `Bio-weisse Nudeln`,
-          unit: '2kg TK',
+          unit: '3kg TK',
           price: '9.50',
         },
         {
           articleNr: 'V600135',
           description: `Spinat-Nudeln`,
-          unit: '2kg TK',
+          unit: '3kg TK',
           price: '10.50',
         },
       ]}
