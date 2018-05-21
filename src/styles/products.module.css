@@ -18,6 +18,8 @@
     -ms-hyphens: auto;
         hyphens: auto;
 
+   word-wrap: normal;     
+
 }
 
 /* Position content */
