@@ -127,7 +127,7 @@ const SeasonPage = ({ data }) => (
         {
           articleNr: '40020',
           description: `Ziegenfrischkäse mit Quitten Rechtecke im Eierteig`,
-          unit: '3kg TK',
+          unit: '2kg TK',
           price: '24.50',
         },
         {

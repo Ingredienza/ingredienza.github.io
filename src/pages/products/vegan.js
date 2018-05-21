@@ -73,7 +73,12 @@ const VeganPage = ({ data }) => (
         },
       ]}
     />
-    <p> Auf Bestellung erhältlich. Mindestbestellmenge 5&cent; &agrave; 3kg TK </p>
+    <p>
+      <strong>
+        Die nachfolgenden Nudeln sind nur auf Bestellung erhältlich.<br />
+        Mindestbestellung 5&cent; &agrave; 3kg
+      </strong>
+    </p>
     <ProductTable
       products={[
         {

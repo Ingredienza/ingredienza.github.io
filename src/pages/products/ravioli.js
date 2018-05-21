@@ -91,13 +91,13 @@ const RavioliPage = ({ data }) => (
         {
           articleNr: '10003',
           description: `Basilikum-Raviolini im Safranteig\nIdeal als Suppeneinlage 2.0 x 2.5cm.`,
-          unit: '2kg TK',
+          unit: '3kg TK',
           price: '13.50',
         },
         {
           articleNr: '10006',
           description: `Basilikum-Tortellini im Eierteig`,
-          unit: '2kg TK',
+          unit: '3kg TK',
           price: '13.50',
         },
         {

@@ -106,7 +106,12 @@ const GnocchiPage = ({ data }) => (
         },
       ]}
     />
-    <p><strong>Unsere Saison-Gnocchi sind auch ausserhalb der Saison erhältlich. Mindestbestellmenge 7&cent; &agrave; 3kg</strong></p>
+    <p>
+      <strong>
+        Unsere Saison-Gnocchi sind auch ausserhalb der Saison erhältlich. <br />
+        Mindestbestellmenge 7&cent; &agrave; 3kg
+      </strong>
+    </p>
     <h1>Spezial-Gnocchi</h1>
     <ProductTable
       products={[
@@ -178,7 +183,12 @@ const GnocchiPage = ({ data }) => (
         },
       ]}
     />
-    <p><strong> Unsere Spezialgnocchi sind nur auf Bestellung erhältlich.  Mindestbestellmenge 7&cent; &agrave; 3kg </strong></p>
+    <p>
+      <strong>
+        Unsere Spezialgnocchi sind nur auf Bestellung erhältlich. <br />
+        Mindestbestellmenge 7&cent; &agrave; 3kg
+      </strong>
+    </p>
   </div>
 )
 

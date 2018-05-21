@@ -56,7 +56,12 @@ const FattoPage = ({ data }) => (
         }, 
       ]}
     />
-    <p> Auf Bestellung erhältlich. Mindestmenge 5kg. </p>
+    <p>
+      <strong>
+        Die nachfolgenden Produkte sind nur auf Bestellung erhältlich.<br />
+        Mindestbestellung 5&cent; &agrave; 1kg
+      </strong>
+    </p>
     <ProductTable
       products={[
         {

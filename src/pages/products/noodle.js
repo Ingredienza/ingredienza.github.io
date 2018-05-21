@@ -85,7 +85,12 @@ const NoodlePage = ({ data }) => (
         },
       ]}
     />
-    <p>Die nachfolgenden Nudeln sind nur auf Bestellung erhältlich.<br /> Mindestbezug 5&cent; &agrave; 3kg</p>
+    <p>
+      <strong>
+        Die nachfolgenden Nudeln sind nur auf Bestellung erhältlich.<br />
+        Mindestbestellung 5&cent; &agrave; 3kg
+      </strong>
+    </p>
     <ProductTable
       showHeader={true}
       products={[
@@ -222,7 +227,7 @@ const NoodlePage = ({ data }) => (
 
 export const query = graphql`
   query NoodlesImageQuery {
-    backgroundImage: imageSharp(id: { regex: "/nudeln1/" }) {
+    backgroundImage: imageSharp(id: { regex: "/nudeln6/" }) {
       sizes(maxWidth: 1000 ) {
         ...GatsbyImageSharpSizes
       }
