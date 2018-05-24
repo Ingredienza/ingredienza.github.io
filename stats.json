@@ -1,0 +1,152 @@
+{
+  "assetsByChunkName": {
+    "path---products-ravioli": [
+      "path---products-ravioli-799818333ce42d0ef704.js",
+      "path---products-ravioli-799818333ce42d0ef704.js.map"
+    ],
+    "component---src-pages-products-vegan-js": [
+      "component---src-pages-products-vegan-js-4e2085cb1d76295bf31e.js",
+      "component---src-pages-products-vegan-js-4e2085cb1d76295bf31e.js.map"
+    ],
+    "component---src-pages-products-season-js": [
+      "component---src-pages-products-season-js-1de11efa2e431ae21cb5.js",
+      "component---src-pages-products-season-js-1de11efa2e431ae21cb5.js.map"
+    ],
+    "component---src-pages-products-index-js": [
+      "component---src-pages-products-index-js-2663a161b88bb6a832da.js",
+      "component---src-pages-products-index-js-2663a161b88bb6a832da.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-8635834827972f747986.js",
+      "component---src-pages-index-js-8635834827972f747986.js.map"
+    ],
+    "component---src-pages-pricelist-js": [
+      "component---src-pages-pricelist-js-74c9d5ce53ec4ae2bcfa.js",
+      "component---src-pages-pricelist-js-74c9d5ce53ec4ae2bcfa.js.map"
+    ],
+    "component---src-pages-products-special-js": [
+      "component---src-pages-products-special-js-9caccf4754a126d134e1.js",
+      "component---src-pages-products-special-js-9caccf4754a126d134e1.js.map"
+    ],
+    "path---products-season": [
+      "path---products-season-e4570b951a110a093e66.js",
+      "path---products-season-e4570b951a110a093e66.js.map"
+    ],
+    "path---products": [
+      "path---products-a70059cd53acdb472656.js",
+      "path---products-a70059cd53acdb472656.js.map"
+    ],
+    "path---": [
+      "path----131f9aef94525eeb6ecd.js",
+      "path----131f9aef94525eeb6ecd.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-286f17cc90c8a8e2d34b.js",
+      "component---src-pages-contact-js-286f17cc90c8a8e2d34b.js.map"
+    ],
+    "component---src-pages-products-noodle-js": [
+      "component---src-pages-products-noodle-js-05d4e5faa18c451e898a.js",
+      "component---src-pages-products-noodle-js-05d4e5faa18c451e898a.js.map"
+    ],
+    "path---terms": [
+      "path---terms-a32ffcfa2cae0e2a14db.js",
+      "path---terms-a32ffcfa2cae0e2a14db.js.map"
+    ],
+    "component---src-pages-links-js": [
+      "component---src-pages-links-js-90c4965d01cfe19c54b3.js",
+      "component---src-pages-links-js-90c4965d01cfe19c54b3.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-63cbd89172279880d34e.js",
+      "component---src-layouts-index-js-63cbd89172279880d34e.js.map"
+    ],
+    "path---products-special": [
+      "path---products-special-b42d867a5870f8084733.js",
+      "path---products-special-b42d867a5870f8084733.js.map"
+    ],
+    "component---src-pages-products-fatto-js": [
+      "component---src-pages-products-fatto-js-2ac35a40eaa4f5fa6f7c.js",
+      "component---src-pages-products-fatto-js-2ac35a40eaa4f5fa6f7c.js.map"
+    ],
+    "component---src-pages-products-gnocchi-js": [
+      "component---src-pages-products-gnocchi-js-31d0db5bd5755f9b9cf3.js",
+      "component---src-pages-products-gnocchi-js-31d0db5bd5755f9b9cf3.js.map"
+    ],
+    "path---products-fatto": [
+      "path---products-fatto-7f59eb6ca2ec29367959.js",
+      "path---products-fatto-7f59eb6ca2ec29367959.js.map"
+    ],
+    "path---index": [
+      "path---index-ffdf2380f2a3c1a2bb33.js",
+      "path---index-ffdf2380f2a3c1a2bb33.js.map"
+    ],
+    "component---src-pages-places-js": [
+      "component---src-pages-places-js-8e86acf3f9be115bf589.js",
+      "component---src-pages-places-js-8e86acf3f9be115bf589.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-792b7115f62c3c09ec82.js",
+      "build-js-styles.css",
+      "commons-792b7115f62c3c09ec82.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---products-vegan": [
+      "path---products-vegan-63cd8176efdd791cb889.js",
+      "path---products-vegan-63cd8176efdd791cb889.js.map"
+    ],
+    "component---src-pages-products-ravioli-js": [
+      "component---src-pages-products-ravioli-js-123c1010e445db3adc9d.js",
+      "component---src-pages-products-ravioli-js-123c1010e445db3adc9d.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---pricelist": [
+      "path---pricelist-43864cf715c93d5c5346.js",
+      "path---pricelist-43864cf715c93d5c5346.js.map"
+    ],
+    "component---src-layouts-products-js": [
+      "component---src-layouts-products-js-53a1e022654606e14eeb.js",
+      "component---src-layouts-products-js-53a1e022654606e14eeb.js.map"
+    ],
+    "path---contact": [
+      "path---contact-650f8a642f1677310b41.js",
+      "path---contact-650f8a642f1677310b41.js.map"
+    ],
+    "path---places": [
+      "path---places-04f9c7e29023aaa976da.js",
+      "path---places-04f9c7e29023aaa976da.js.map"
+    ],
+    "path---products-noodle": [
+      "path---products-noodle-254e9aa317e2bf41e361.js",
+      "path---products-noodle-254e9aa317e2bf41e361.js.map"
+    ],
+    "app": [
+      "app-afef87cf506c2acadeaf.js",
+      "build-js-styles.css",
+      "app-afef87cf506c2acadeaf.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---links": [
+      "path---links-ffdf2380f2a3c1a2bb33.js",
+      "path---links-ffdf2380f2a3c1a2bb33.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---products-gnocchi": [
+      "path---products-gnocchi-52c4376991dc20201244.js",
+      "path---products-gnocchi-52c4376991dc20201244.js.map"
+    ],
+    "component---src-pages-terms-js": [
+      "component---src-pages-terms-js-2e7c687b760b49d6e8b4.js",
+      "component---src-pages-terms-js-2e7c687b760b49d6e8b4.js.map"
+    ]
+  }
+}
