@@ -24,7 +24,7 @@ const VeganPage = ({ data }) => (
       ]}
     />
  
-    <h1>Vegane Teigwaren aus Bern  – <br />Ingredienza goes vegan</h1>
+    <h1>Vegane Teig&shy;waren aus Bern</h1> <h2>Ingredienza goes vegan</h2>
     <p>
     Aufgrund der gestiegenen Nachfrage an veganer Pasta haben wir unser Angebot
     erweitert. Als eine der ersten Teigwaren-Manufakturen führen wir ein veganes

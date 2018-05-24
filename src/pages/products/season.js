@@ -24,7 +24,7 @@ const SeasonPage = ({ data }) => (
       ]}
     />
  
-    <h1>Saisonprodukte – Pasta aus <br />Saisongemüse</h1>
+    <h1>Saison&shy;produkte</h1> <h2>Pasta aus Saison&shy;gemüse</h2>
     <p>
       Bei Ingredienza setzen wir uns für regionale Produkte ein. Deshalb bieten wir
       unseren Kunden saisonale Pasta. Je nach Jahreszeit kreieren wir aus frischen

@@ -23,7 +23,7 @@ const TermsPage = ({ data }) => (
         { name: 'keywords', content: 'Konditionen' }
       ]}
     />
-    <h1>Unsere Konditionen – für Ihren Gastronomiebetrieb</h1>
+    <h1>Unsere Konditionen</h1><h2>für Ihren Gastronomiebetrieb</h2>
     <p>
     Unsere Konditionen sind gültig ab 1. Dezember 2017
     </p>
