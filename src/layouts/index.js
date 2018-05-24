@@ -25,6 +25,7 @@ const TemplateWrapper = ({ children, lockScreen }) => (
         {to: '/pricelist/', text: 'Preisliste'},
         {to: '/terms', text: 'Konditionen'},
         {to: '/contact', text: 'Kontakt'},
+        {to: '/links', text: 'Links' }
       ]}
     />
     <main className={styles.content}>
