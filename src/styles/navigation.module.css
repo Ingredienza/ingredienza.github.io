@@ -7,7 +7,6 @@ nav a {
 nav {
   top: 30px;
   position: fixed;
-  padding: 2%;
   grid-area: main;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -38,7 +37,7 @@ nav {
 
 nav ul {
   list-style-type: none;
-  margin-left: 0px;
+  margin-left: 15px;
 }
 
 nav li {
