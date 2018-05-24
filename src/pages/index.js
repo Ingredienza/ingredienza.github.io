@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => (
 
       ]}
     />
-    <h1>Ingredienza – frisch zubereitete Pastasorten aus Bern</h1>
+    <h1>Ingredienza</h1><h2> frisch zubereitete Pastasorten aus Bern</h2>
     <p>
       INGREDIENZA... heisst Zutaten. Wir sind ein Unternehmen, welches sich ganz der
       Herstellung von erstklassigen Pastasorten widmet.  Was im Februar 1990 mit

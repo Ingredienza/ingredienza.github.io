@@ -24,7 +24,7 @@ const SpecialPage = ({ data }) => (
       ]}
     />
  
-    <h1>Entdecken Sie unsere Spezialitäten – Teigwaren mit Spezialfüllung</h1>
+    <h1>Entdecken Sie unsere Spezialitäten</h1> <h2>Teigwaren mit Spezial&shy;füllung</h2>
     <p>
       Bei uns gibt es Teigwaren ganz nach Ihren individuellen Wünschen. Sie
       bestimmen den Teig als auch die Form Ihrer Pasta. Je nach Rezeptur liegt der

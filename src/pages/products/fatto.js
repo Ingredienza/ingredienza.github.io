@@ -24,7 +24,7 @@ const FattoPage = ({ data }) => (
       ]}
     />
  
-    <h1>Fatto a Mano – von Hand gemacht</h1>
+    <h1>Fatto a Mano</h1> <h2>von Hand gemacht</h2>
     <p>
       Die Linie „Fatto a mano“ hält, was ihr Name verspricht – die Pasta wird mit
       viel Sorgfalt von Hand hergestellt. „Fatto a mano“ gehört zum Exklusivsten,
