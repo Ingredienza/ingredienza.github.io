@@ -21,8 +21,8 @@
       "component---src-pages-index-js-8635834827972f747986.js.map"
     ],
     "component---src-pages-pricelist-js": [
-      "component---src-pages-pricelist-js-b61ca74f478d5bde2bf4.js",
-      "component---src-pages-pricelist-js-b61ca74f478d5bde2bf4.js.map"
+      "component---src-pages-pricelist-js-1135ff07fb65ebecf48a.js",
+      "component---src-pages-pricelist-js-1135ff07fb65ebecf48a.js.map"
     ],
     "component---src-pages-products-special-js": [
       "component---src-pages-products-special-js-9caccf4754a126d134e1.js",
@@ -53,12 +53,12 @@
       "path---terms-a32ffcfa2cae0e2a14db.js.map"
     ],
     "component---src-pages-links-js": [
-      "component---src-pages-links-js-d8f8e91ed55da7925be4.js",
-      "component---src-pages-links-js-d8f8e91ed55da7925be4.js.map"
+      "component---src-pages-links-js-04c365b105b9bb1359ab.js",
+      "component---src-pages-links-js-04c365b105b9bb1359ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-63cbd89172279880d34e.js",
-      "component---src-layouts-index-js-63cbd89172279880d34e.js.map"
+      "component---src-layouts-index-js-693524b9f8d1292b78b4.js",
+      "component---src-layouts-index-js-693524b9f8d1292b78b4.js.map"
     ],
     "path---products-special": [
       "path---products-special-b42d867a5870f8084733.js",
@@ -89,9 +89,9 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-792b7115f62c3c09ec82.js",
+      "commons-a6cac56e2e164ac9590d.js",
       "build-js-styles.css",
-      "commons-792b7115f62c3c09ec82.js.map",
+      "commons-a6cac56e2e164ac9590d.js.map",
       "build-js-styles.css.map"
     ],
     "path---products-vegan": [
@@ -111,8 +111,8 @@
       "path---pricelist-43864cf715c93d5c5346.js.map"
     ],
     "component---src-layouts-products-js": [
-      "component---src-layouts-products-js-53a1e022654606e14eeb.js",
-      "component---src-layouts-products-js-53a1e022654606e14eeb.js.map"
+      "component---src-layouts-products-js-6d5d2557c5c46c1ef443.js",
+      "component---src-layouts-products-js-6d5d2557c5c46c1ef443.js.map"
     ],
     "path---contact": [
       "path---contact-650f8a642f1677310b41.js",
@@ -145,8 +145,8 @@
       "path---products-gnocchi-52c4376991dc20201244.js.map"
     ],
     "component---src-pages-terms-js": [
-      "component---src-pages-terms-js-2e7c687b760b49d6e8b4.js",
-      "component---src-pages-terms-js-2e7c687b760b49d6e8b4.js.map"
+      "component---src-pages-terms-js-000e4d39a049fb5a5cdc.js",
+      "component---src-pages-terms-js-000e4d39a049fb5a5cdc.js.map"
     ]
   }
 }
