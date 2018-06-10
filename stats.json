@@ -57,8 +57,8 @@
       "component---src-pages-links-js-588236907ea583f178f9.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-4e5c52a046fb6e98379d.js",
-      "component---src-layouts-index-js-4e5c52a046fb6e98379d.js.map"
+      "component---src-layouts-index-js-b65be19d22edbb11d8c2.js",
+      "component---src-layouts-index-js-b65be19d22edbb11d8c2.js.map"
     ],
     "path---products-special": [
       "path---products-special-b42d867a5870f8084733.js",
@@ -111,8 +111,8 @@
       "path---pricelist-43864cf715c93d5c5346.js.map"
     ],
     "component---src-layouts-products-js": [
-      "component---src-layouts-products-js-42981887f47904db549d.js",
-      "component---src-layouts-products-js-42981887f47904db549d.js.map"
+      "component---src-layouts-products-js-b5c85e5837b7beda5513.js",
+      "component---src-layouts-products-js-b5c85e5837b7beda5513.js.map"
     ],
     "path---contact": [
       "path---contact-650f8a642f1677310b41.js",
@@ -127,9 +127,9 @@
       "path---products-noodle-254e9aa317e2bf41e361.js.map"
     ],
     "app": [
-      "app-91932a0081d400f34be4.js",
+      "app-d736e821aa3491d5d02c.js",
       "build-js-styles.css",
-      "app-91932a0081d400f34be4.js.map",
+      "app-d736e821aa3491d5d02c.js.map",
       "build-js-styles.css.map"
     ],
     "path---links": [
