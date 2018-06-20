@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---products-ravioli": [
-      "path---products-ravioli-799818333ce42d0ef704.js",
-      "path---products-ravioli-799818333ce42d0ef704.js.map"
+      "path---products-ravioli-660438902bab47c3491c.js",
+      "path---products-ravioli-660438902bab47c3491c.js.map"
     ],
     "component---src-pages-products-vegan-js": [
       "component---src-pages-products-vegan-js-6a8a4b85a0eebb3356e7.js",
@@ -29,16 +29,16 @@
       "component---src-pages-products-special-js-ef2e3bd175bb9bfe661b.js.map"
     ],
     "path---products-season": [
-      "path---products-season-e4570b951a110a093e66.js",
-      "path---products-season-e4570b951a110a093e66.js.map"
+      "path---products-season-d4c6f892512c43d1a4cd.js",
+      "path---products-season-d4c6f892512c43d1a4cd.js.map"
     ],
     "path---products": [
       "path---products-a70059cd53acdb472656.js",
       "path---products-a70059cd53acdb472656.js.map"
     ],
     "path---": [
-      "path----131f9aef94525eeb6ecd.js",
-      "path----131f9aef94525eeb6ecd.js.map"
+      "path----6ca6807185ee9b029244.js",
+      "path----6ca6807185ee9b029244.js.map"
     ],
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-5daf851964309312aff7.js",
@@ -57,8 +57,8 @@
       "component---src-pages-links-js-588236907ea583f178f9.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-4667c6468419e06522d8.js",
-      "component---src-layouts-index-js-4667c6468419e06522d8.js.map"
+      "component---src-layouts-index-js-a2687cf68d6162c6ddb1.js",
+      "component---src-layouts-index-js-a2687cf68d6162c6ddb1.js.map"
     ],
     "path---products-special": [
       "path---products-special-b42d867a5870f8084733.js",
@@ -107,12 +107,12 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---pricelist": [
-      "path---pricelist-43864cf715c93d5c5346.js",
-      "path---pricelist-43864cf715c93d5c5346.js.map"
+      "path---pricelist-64b37a09a13d861205d9.js",
+      "path---pricelist-64b37a09a13d861205d9.js.map"
     ],
     "component---src-layouts-products-js": [
-      "component---src-layouts-products-js-a93e05c19ea17ad5836c.js",
-      "component---src-layouts-products-js-a93e05c19ea17ad5836c.js.map"
+      "component---src-layouts-products-js-5172653d8a377c4e63c4.js",
+      "component---src-layouts-products-js-5172653d8a377c4e63c4.js.map"
     ],
     "path---contact": [
       "path---contact-650f8a642f1677310b41.js",
@@ -123,13 +123,13 @@
       "path---places-04f9c7e29023aaa976da.js.map"
     ],
     "path---products-noodle": [
-      "path---products-noodle-254e9aa317e2bf41e361.js",
-      "path---products-noodle-254e9aa317e2bf41e361.js.map"
+      "path---products-noodle-6e10fc28b97ef8c8bd32.js",
+      "path---products-noodle-6e10fc28b97ef8c8bd32.js.map"
     ],
     "app": [
-      "app-91932a0081d400f34be4.js",
+      "app-6b55f4ec097d7199b0c9.js",
       "build-js-styles.css",
-      "app-91932a0081d400f34be4.js.map",
+      "app-6b55f4ec097d7199b0c9.js.map",
       "build-js-styles.css.map"
     ],
     "path---links": [
@@ -141,8 +141,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---products-gnocchi": [
-      "path---products-gnocchi-52c4376991dc20201244.js",
-      "path---products-gnocchi-52c4376991dc20201244.js.map"
+      "path---products-gnocchi-e822759c33aa2c1eea39.js",
+      "path---products-gnocchi-e822759c33aa2c1eea39.js.map"
     ],
     "component---src-pages-terms-js": [
       "component---src-pages-terms-js-ed971aa4fa3e002598a7.js",
