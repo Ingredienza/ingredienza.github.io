@@ -41,20 +41,20 @@
       "path----4642ec999c8b4a4d2042.js.map"
     ],
     "component---src-pages-contact-js": [
-      "component---src-pages-contact-js-5daf851964309312aff7.js",
-      "component---src-pages-contact-js-5daf851964309312aff7.js.map"
+      "component---src-pages-contact-js-fe3933fc4c4966e59098.js",
+      "component---src-pages-contact-js-fe3933fc4c4966e59098.js.map"
     ],
     "component---src-pages-products-noodle-js": [
       "component---src-pages-products-noodle-js-214341383cbb699afff9.js",
       "component---src-pages-products-noodle-js-214341383cbb699afff9.js.map"
     ],
     "path---terms": [
-      "path---terms-55cc4dbaa62c4a2371bb.js",
-      "path---terms-55cc4dbaa62c4a2371bb.js.map"
+      "path---terms-da82455264f8a96be0af.js",
+      "path---terms-da82455264f8a96be0af.js.map"
     ],
     "component---src-pages-links-js": [
-      "component---src-pages-links-js-588236907ea583f178f9.js",
-      "component---src-pages-links-js-588236907ea583f178f9.js.map"
+      "component---src-pages-links-js-08abfbd57f2f5f834421.js",
+      "component---src-pages-links-js-08abfbd57f2f5f834421.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-a2687cf68d6162c6ddb1.js",
@@ -81,8 +81,8 @@
       "path---index-ed07f7030254bf78093d.js.map"
     ],
     "component---src-pages-places-js": [
-      "component---src-pages-places-js-76c271c26bb8053fe69d.js",
-      "component---src-pages-places-js-76c271c26bb8053fe69d.js.map"
+      "component---src-pages-places-js-a359b708c212d440e225.js",
+      "component---src-pages-places-js-a359b708c212d440e225.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -97,6 +97,10 @@
     "path---products-vegan": [
       "path---products-vegan-844c51ad108f01086b0d.js",
       "path---products-vegan-844c51ad108f01086b0d.js.map"
+    ],
+    "component---src-pages-impressum-js": [
+      "component---src-pages-impressum-js-63425d9ce7598e110be8.js",
+      "component---src-pages-impressum-js-63425d9ce7598e110be8.js.map"
     ],
     "component---src-pages-products-ravioli-js": [
       "component---src-pages-products-ravioli-js-3573e654a53c8890c11c.js",
@@ -127,14 +131,18 @@
       "path---products-noodle-20890d37f4911105b8f6.js.map"
     ],
     "app": [
-      "app-6b55f4ec097d7199b0c9.js",
+      "app-821a2541754610431b48.js",
       "build-js-styles.css",
-      "app-6b55f4ec097d7199b0c9.js.map",
+      "app-821a2541754610431b48.js.map",
       "build-js-styles.css.map"
     ],
     "path---links": [
       "path---links-bf5dbb1f9ccbdbbf786a.js",
       "path---links-bf5dbb1f9ccbdbbf786a.js.map"
+    ],
+    "path---impressum": [
+      "path---impressum-a0e39f21c11f6a62c5ab.js",
+      "path---impressum-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
